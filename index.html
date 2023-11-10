@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/7577aa4f09.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input  id="new" type="text" placeholder="enter your location" spellcheck="false" required>
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="error">
+            <p>enter correct city name <br> <i class="fa-solid fa-triangle-exclamation fa-shake fa-lg" style="color: #f60909;"></i>
+            </p>
+        </div>
+        <div class="weather">
+            <img src="img/sunny-and-rainy-day-weather-forecast-icon-meteorological-sign-3d-render-png.webp " class="weather-icon"
+                alt="weather image">
+            <h1 class="temp">10°C</h1>
+            <h2 class="city">New York</h2>
+           <div class="flex">
+            <h2 class="max"> 18°C</h2>
+            <h2 class="min"> 10°C</h2>
+           </div>
+            <div class="details">
+                <div class="col">
+                    <p><i class="fa-solid fa-water"></i></p>
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <p><i class="fa-solid fa-wind"></i></p>
+                    <div>
+                        <p class="wind">15km/h</p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+                <!-- <div class="col">
+                    <p><i class="fa-solid fa-cloud-rain"></i></p>
+                    <div>
+                        <p class="rain">10%</p>
+                        <p>Rain</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <p><i class="fa-solid fa-sun"></i></p>
+                    <div>
+                        <p class="sunrise">10:45</p>
+                        <p>Sunrise</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <p><i class="fa-solid fa-moon"></i></p>
+                    <div>
+                        <p class="sunset">6:30</p>
+                        <p>Sunset</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
