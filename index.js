@@ -27,7 +27,7 @@ async function checkweather(city) {
         // document.querySelector(".rain").innerHTML = data.main.Rain+"%";
         // document.querySelector(".sunrise").innerHTML =data.sys.sunrise+"   am"
         // document.querySelector(".sunset").innerHTML = data.sys.sunset +"  pm";
-        document.querySelector(".max").innerHTML =Math.round( data.main.temp_max )+" °C           /  "
+        document.querySelector(".max").innerHTML =Math.round( data.main.temp_max )+" °C  "
         document.querySelector(".min").innerHTML =Math.round( data.main.temp_min )+" °C "
 
         if (data.weather[0].main == "Clouds") {
